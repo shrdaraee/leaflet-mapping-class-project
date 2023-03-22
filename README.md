@@ -6,7 +6,7 @@ This is a class project written using the JavaScript programming language and th
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](Screenshot.png)
 
 ## 🚀 About Me
 
