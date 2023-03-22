@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <link rel="stylesheet" href="./style/Leaflet.LinearMeasurement.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>mapping</title>
+
+</head>
+
+<body>
+  <div id="map" class="map"></div>
+  <div class="buttons">
+    <button class="fullscreen-map" onclick=fullScreenViwe()>نمایش تمام صفحه</button>
+    <button class="print-map">چاپ نقشه</button>
+    <button class="current-location" onclick=locate()> موقعیت مکانی من</button>
+
+  </div>
+
+  <div class="coordinate"></div>
+
+
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+<script src="./js/lib/Leaflet.LinearMeasurement.js"></script>
+<script src="./js/lib/leaflet.browser.print.min.js"></script>
+<script src="./js/index.js"></script>
+
+
+
+</html>
