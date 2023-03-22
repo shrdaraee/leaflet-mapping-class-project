@@ -10,7 +10,7 @@ This is a class project written using the JavaScript programming language and th
 
 ## 🚀 About Me
 
-I'm a front end developer and web designer
+I'm front end developer and web designer
 
 [@shrdaraee](https://www.github.com/shrdaraee)
 
